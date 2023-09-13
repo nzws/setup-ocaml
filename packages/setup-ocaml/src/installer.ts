@@ -112,6 +112,15 @@ export async function installer() {
       }
     }
   }
+  core.startGroup("Add the OCaml problem matcher");
+  const ocamlMatcherPath = path.join(
+    // eslint-disable-next-line unicorn/prefer-module
+    __dirname,
+    "matchers",
+    "ocaml.json",
+  );
+  core.info(`##[add-matcher]${ocamlMatcherPath}`);
+  core.endGroup();
   await exec("opam", ["--version"]);
   if (OPAM_DEPEXT) {
     await exec("opam", ["depext", "--version"]);

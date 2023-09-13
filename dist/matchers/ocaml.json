@@ -1,0 +1,20 @@
+{
+  "problemMatcher": [
+    {
+      "owner": "ocaml",
+      "pattern": [
+        {
+          "regexp": "^File\\s\"(.+)\",\\sline\\s(\\d+),\\scharacters\\s(\\d+)-(\\d+):\\n((.|\\n)+?)(Error|Warning)\\s*(.*):\\s((.|\\n)+?(?=(File\\s\".+\",\\sline\\s\\d+,\\scharacters\\s\\d+-\\d+:))|(.|\\n)+)",
+          "file": 1,
+          "line": 2,
+          "endLine": 2,
+          "column": 3,
+          "endColumn": 4,
+          "code": 5,
+          "severity": 7,
+          "message": 9
+        }
+      ]
+    }
+  ]
+}
