@@ -4,7 +4,7 @@
       "owner": "ocaml",
       "pattern": [
         {
-          "regexp": "^File\\s\"(.+)\",\\sline\\s(\\d+),\\scharacters\\s(\\d+)-(\\d+):\\n((.|\\n)+?)(Error|Warning)\\s*(.*):\\s((.|\\n)+?(?=(File\\s\".+\",\\sline\\s\\d+,\\scharacters\\s\\d+-\\d+:))|(.|\\n)+)",
+          "regexp": "^File\\s\\\"(.+)\\\",\\sline\\s(\\d+),\\scharacters\\s(\\d+)-(\\d+):\\n((.|\\n)+?)(Error|Warning)\\s*(.*):\\s((.|\\n)+?(?=(File\\s\\\".+\\\",\\sline\\s\\d+,\\scharacters\\s\\d+-\\d+:))|(.|\\n)+)",
           "file": 1,
           "line": 2,
           "endLine": 2,
