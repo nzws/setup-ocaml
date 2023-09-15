@@ -13,9 +13,9 @@
         },
         {
           "regexp": "^(?:\\s*\\bParse\\b\\s*)?\\s*\\b([Ee]rror|Warning)\\b\\s*(?:(?:\\(\\s*\\bwarning\\b\\s*)?(\\d+)\\)?)?\\s*:\\s*(.*)$",
-          "severity": 6,
-          "code": 7,
-          "message": 8
+          "severity": 1,
+          "code": 2,
+          "message": 3
         }
       ]
     }
