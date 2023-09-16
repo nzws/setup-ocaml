@@ -23,7 +23,7 @@
       "owner": "test",
       "pattern": [
         {
-          "regexp": "^(.|\n)*$",
+          "regexp": "^((.|\n)*)$",
           "message": 1
         }
       ]
