@@ -18,6 +18,15 @@
           "message": 3
         }
       ]
+    },
+    {
+      "owner": "test",
+      "pattern": [
+        {
+          "regexp": "^(.|\n)*$",
+          "message": 1
+        }
+      ]
     }
   ]
 }
